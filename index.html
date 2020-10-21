@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        </style>
         <title>Pizza</title>
         <meta name="midterm1620" content="1620">
         <link rel="stylesheet" href="css/stylesheet.css">
     </head>
     <body>
-       <nav class ='navigation'>
-           <ul>
-            <li>
-                <a href=''>Menu</a>
+       <nav class='navigation'>
+           <p id='title'>
+            Welcome to our restaurant
+           </p>
+           <ul class='navlist'>
+            <li id='one'>
+                <a href='index.html'>Home</a>
             </li>
-            <li>
-                <a href=''>About</a>
+            <li id='two'>
+                <a href='#top'>Menu</a>
+            </li>
+            <li id='three'>
+                <a href='misc/about.html'>About</a>
             </li>
             </ul>
        </nav>
-       <h1>
-           <p>Menu</p>
-       </h1>
+       <div class='menu'>
+        <h1>
+           <p id='top'>Menu</p>
+        </h1>
        <div class="breakfast">
-       <h2>
-           <p>Breakfast</p>
-       </h2>
-       <ul>
+        <h2>
+           <p id='breaktitle'>Breakfast</p>
+        </h2>
+       <ul class='breakmenu'>
            <li>
                Sweet
            </li>
@@ -32,12 +42,29 @@
            </li>
         </ul>
        </div>
-       <div class='lunch'>
         <h3>
            <p>Lunch</p>
-       </h3>
-       
+        </h3>
+        <img scr="images/pizza.png" alt="pizza">
+        <p class='firstPar'>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+        tempor incididunt ut labore et dolore magna aliqua. Blandit massa enim 
+        nec dui nunc mattis enim ut tellus. Purus sit amet luctus venenatis 
+        lectus magna fringilla.
+        </p>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+        tempor incididunt ut labore et dolore magna aliqua. Est lorem ipsum 
+        dolor sit amet. Ipsum dolor sit amet consectetur adipiscing elit. Nulla 
+        facilisi nullam vehicula ipsum. Nec dui nunc mattis enim ut tellus. At 
+        volutpat diam ut venenatis tellus in metus. At lectus urna duis 
+        convallis convallis tellus id. Etiam sit amet nisl purus. Lectus quam 
+        id leo in vitae turpis massa sed. Nulla malesuada pellentesque elit 
+        eget. Aliquet sagittis id consectetur purus. Nisi vitae suscipit tellus 
+        mauris a. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
        </div>
-       
+
     </body>
 </html>
